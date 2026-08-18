@@ -1,0 +1,255 @@
+{
+  "source": "aiagentvn-motion-graphic-template",
+  "generatedAt": "2026-08-18T23:56:17.808Z",
+  "count": 31,
+  "templates": [
+    {
+      "id": "creative/free-style",
+      "name": "Free Style",
+      "category": "creative",
+      "behavior": "creative",
+      "description": "No fixed visual system. Content-driven scenes, colors, animations, and transitions, with default watermark and subtitle safe zones.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "creative/free-style-sfx",
+      "name": "Free Style + Audio SFX",
+      "category": "creative",
+      "behavior": "creative",
+      "description": "Free-style creative direction with background music and a transition sound at every scene entry.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "creative/pixel-style",
+      "name": "Pixel Style",
+      "category": "creative",
+      "behavior": "creative",
+      "description": "Content-driven creative scenes with modern pixel-editorial typography, grid-based geometry, stepped motion, and Vietnamese-safe pixel fonts.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "creative/pixel-style-sfx",
+      "name": "Pixel Style + Audio SFX",
+      "category": "creative",
+      "behavior": "creative",
+      "description": "Modern pixel-editorial creative direction with Vietnamese-safe typography, background music, and one transition sound at every scene entry.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "creative/demo-scroll",
+      "name": "Demo Scroll",
+      "category": "creative",
+      "behavior": "creative",
+      "description": "Free-style creative direction with a muted 9:16 browser recording that starts at the first narration mention of the demo.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "creative/demo-scroll-sfx",
+      "name": "Demo Scroll + Audio SFX",
+      "category": "creative",
+      "behavior": "creative",
+      "description": "Free-style creative direction with a muted 9:16 browser demo recording, background music, and a transition sound at every scene entry.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "creative/article-video-demo",
+      "name": "Article Video Demo",
+      "category": "creative",
+      "behavior": "creative",
+      "description": "Free-style introduction followed by the complete video embedded in a required article URL, preserving source audio when available. Stops when the article has no usable video.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "creative/source-led-light",
+      "name": "Source Led Light",
+      "category": "creative",
+      "behavior": "creative",
+      "description": "Light creative storytelling driven by article context and relevant source images or muted video excerpts, with per-scene free-style fallback and visible attribution.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "creative/source-led-dark",
+      "name": "Source Led Dark",
+      "category": "creative",
+      "behavior": "creative",
+      "description": "Dark creative storytelling driven by article context and relevant source images or muted video excerpts, with per-scene free-style fallback and visible attribution.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "creative/source-led-light-sfx",
+      "name": "Source Led Light + Audio SFX",
+      "category": "creative",
+      "behavior": "creative",
+      "description": "Light source-led creative storytelling with attributed article evidence, per-scene free-style fallback, background music, and transition SFX.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "creative/source-led-dark-sfx",
+      "name": "Source Led Dark + Audio SFX",
+      "category": "creative",
+      "behavior": "creative",
+      "description": "Dark source-led creative storytelling with attributed article evidence, per-scene free-style fallback, background music, and transition SFX.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/current-affairs-light",
+      "name": "Current Affairs Light",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Thời sự chính trị, kỷ nguyên mới, dân sinh, việc làm, giao thông. Nền giấy sáng, accent đỏ son và navy.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/tech-dark",
+      "name": "Tech News Dark",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Tin tức công nghệ. Nền tối sâu, tiêu đề gradient cyan-xanh, đốm sáng góc, particle network.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/tech-light",
+      "name": "Tech News Light",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Tin tức công nghệ. Nền trắng sạch, headline lớn đậm, accent đỏ, ảnh có ghi nguồn.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/current-affairs-dark",
+      "name": "Current Affairs Dark",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Thời sự nghiêm túc với nền tối briefing room, phù hợp chính sách, giao thông, biến động xã hội.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/real-estate-civic-light",
+      "name": "Real Estate Civic Light",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Bản tin bất động sản dân sinh/quy hoạch xã hội. Nền hồng phấn, headline nặng, timeline, quote và ảnh có nguồn.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/real-estate-civic-dark",
+      "name": "Real Estate Civic Dark",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Bản tin bất động sản dân sinh/quy hoạch xã hội. Nền đêm đô thị, accent vàng/cyan, ảnh mở dạng shutter và timeline sắc nét.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/entertainment-magazine-light",
+      "name": "Entertainment Magazine Light",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Tin giải trí tone sáng kiểu tạp chí: âm nhạc, phim, nhân vật, sách, thời trang với ảnh nguồn, quote, timeline và ranking.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/entertainment-premiere-dark",
+      "name": "Entertainment Premiere Dark",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Tin giải trí tone tối kiểu premiere/sân khấu, không top bar: phim, nhạc, nhân vật, awards với poster, quote, timeline và ranking.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/sports-arena-dark",
+      "name": "Sports Arena Dark",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Tin thể thao tone tối kiểu sân vận động: scoreboard, ảnh/video nguồn, tỉ số, timeline, stat board, quote và lịch đấu.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/sports-briefing-light",
+      "name": "Sports Briefing Light",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Tin thể thao tone sáng, ổn định: nền giấy editorial, scoreboard sạch, ảnh/video nguồn, stat board, timeline và quote.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/health-briefing-light",
+      "name": "Health Briefing Light",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Tin tức sức khoẻ sáng, sạch, source-led: ảnh/video nguồn, số liệu, khuyến cáo, triệu chứng và timeline y tế.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/health-public-alert",
+      "name": "Health Public Alert",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Cảnh báo sức khoẻ dạng bulletin: mức độ rủi ro, nhóm ảnh hưởng, checklist triệu chứng, hành động nên/không nên làm.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/business-terminal-dark",
+      "name": "Business Terminal Dark",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Bản tin kinh doanh/tài chính tone tối kiểu market terminal: ticker, số liệu lớn, biểu đồ, rủi ro và triển vọng.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/business-ledger-light",
+      "name": "Business Ledger Light",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Bản tin kinh doanh/tài chính tone sáng kiểu financial newspaper: giấy ngà, ledger table, serif headline, chỉ số và memo kinh tế.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/travel-postcard-light",
+      "name": "Travel Postcard Light",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Bản tin du lịch sáng kiểu tạp chí postcard: ảnh nguồn, tem địa điểm, route strip, boarding-pass fact và lưu ý địa phương.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/travel-guide-light",
+      "name": "Travel Guide Light",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Bản tin hướng dẫn du lịch sáng, thực dụng: chi phí, lịch trình, checklist, mùa đi và nên/không nên.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/auto-showroom-dark",
+      "name": "Auto Showroom Dark",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Bản tin xe tone tối kiểu showroom/road test: ánh đèn, spec cards, gauge, compare board, recall và road-ahead checklist.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/auto-market-light",
+      "name": "Auto Market Light",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Bản tin thị trường xe tone sáng: ra mắt, khai tử, xu hướng xe điện, giá bán, chính sách, vòng đời mẫu xe và hành vi người mua.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/education-briefing-light",
+      "name": "Education Briefing Light",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Bản tin giáo dục sáng, không top bar: tuyển sinh, du học, đổi mới, chân dung, deadline, checklist và dữ liệu học thuật.",
+      "aspectRatio": "9:16"
+    },
+    {
+      "id": "news/education-campus-light",
+      "name": "Education Campus Light",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Bản tin giáo dục sáng kiểu campus bulletin: nền sky, vertical rail, notebook cards, coral deadline và mint insight.",
+      "aspectRatio": "9:16"
+    }
+  ]
+}
