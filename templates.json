@@ -1,95 +1,280 @@
 {
-  "source": "aiagentvn-motion-graphic-template",
-  "generatedAt": "2026-08-18T23:57:49.620Z",
-  "count": 31,
+  "source": "premium-text-to-video",
+  "generatedAt": "2026-09-06T00:00:00.000Z",
+  "count": 45,
   "templates": [
+    {
+      "id": "comparison/boy-dark",
+      "name": "Comparison Boy Dark",
+      "category": "comparison",
+      "behavior": "fixed",
+      "description": "Video so sánh hai lựa chọn với board hai cột xanh/cam, presenter tối giản và kết luận theo nhu cầu.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "So Sánh",
+          "url": "https://drive.google.com/file/d/1-tcQuDF-utUU5LyCvkhs5sB3cJhI5p97/view?usp=drivesdk",
+          "updatedAt": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "comparison/girl-light",
+      "name": "Comparison Girl Light",
+      "category": "comparison",
+      "behavior": "fixed",
+      "description": "Video so sánh hai lựa chọn trên nền sáng editorial, hai card màu coral/xanh, presenter nữ minh họa và biểu đồ chứng cứ.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "So Sánh",
+          "url": "https://drive.google.com/file/d/1kktkkUaXEnxuPKxKcow7Hnxs6b3UGORJ/view?usp=drivesdk",
+          "updatedAt": "2026-08-29"
+        }
+      ]
+    },
     {
       "id": "creative/free-style",
       "name": "Free Style",
       "category": "creative",
       "behavior": "creative",
-      "description": "No fixed visual system. Content-driven scenes, colors, animations, and transitions, with default watermark and subtitle safe zones.",
-      "aspectRatio": "9:16"
+      "description": "Không có hệ thống hình ảnh cố định; mỗi video được phát triển theo nội dung với màu sắc, chuyển động, chuyển cảnh và vùng an toàn mặc định cho watermark, phụ đề.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": []
     },
     {
       "id": "creative/free-style-sfx",
       "name": "Free Style + Audio SFX",
       "category": "creative",
       "behavior": "creative",
-      "description": "Free-style creative direction with background music and a transition sound at every scene entry.",
-      "aspectRatio": "9:16"
+      "description": "Định hướng sáng tạo tự do, có nhạc nền và một hiệu ứng âm thanh ở mỗi điểm bắt đầu cảnh.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "AI tự sáng tạo",
+          "url": "https://drive.google.com/file/d/1O_a7cgnD7wF4b0VWymHacTx8-VEWX72C/view?usp=drivesdk",
+          "updatedAt": "2026-08-25"
+        }
+      ]
+    },
+    {
+      "id": "creative/spatial-flow-sfx",
+      "name": "Spatial Flow + Audio SFX",
+      "category": "creative",
+      "behavior": "creative",
+      "description": "Đồ họa chuyển động biên tập theo không gian và quỹ đạo, với đường dẫn, nút phát sáng, thẻ dữ kiện, nhạc nền và hiệu ứng chuyển cảnh.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Bất động sản",
+          "url": "https://drive.google.com/file/d/1oapr-laEE3jIVFEmnVdns33OxJuvCQ02/view?usp=drivesdk",
+          "updatedAt": "2026-08-28"
+        },
+        {
+          "topic": "AI tự sáng tạo",
+          "url": "https://drive.google.com/file/d/1g006i5abBFs_DFeunQ33Yn0WJ-eIYYDi/view?usp=drivesdk",
+          "updatedAt": "2026-08-28"
+        }
+      ]
     },
     {
       "id": "creative/pixel-style",
       "name": "Pixel Style",
       "category": "creative",
       "behavior": "creative",
-      "description": "Content-driven creative scenes with modern pixel-editorial typography, grid-based geometry, stepped motion, and Vietnamese-safe pixel fonts.",
-      "aspectRatio": "9:16"
+      "description": "Các cảnh sáng tạo theo nội dung, dùng chữ kiểu pixel hiện đại, hình học theo lưới, chuyển động bậc thang và phông chữ hỗ trợ tiếng Việt.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": []
     },
     {
       "id": "creative/pixel-style-sfx",
       "name": "Pixel Style + Audio SFX",
       "category": "creative",
       "behavior": "creative",
-      "description": "Modern pixel-editorial creative direction with Vietnamese-safe typography, background music, and one transition sound at every scene entry.",
-      "aspectRatio": "9:16"
+      "description": "Định hướng sáng tạo kiểu pixel hiện đại, hỗ trợ tiếng Việt, có nhạc nền và một hiệu ứng chuyển cảnh ở mỗi điểm bắt đầu cảnh.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "AI tự sáng tạo",
+          "url": "https://drive.google.com/file/d/1vzKOonqpH1FauxYNQ1TK3K6G8IV6gEJt/view?usp=drivesdk",
+          "updatedAt": "2026-08-25"
+        }
+      ]
     },
     {
       "id": "creative/demo-scroll",
       "name": "Demo Scroll",
       "category": "creative",
       "behavior": "creative",
-      "description": "Free-style creative direction with a muted 9:16 browser recording that starts at the first narration mention of the demo.",
-      "aspectRatio": "9:16"
+      "description": "Định hướng sáng tạo tự do với bản ghi trình duyệt dọc 9:16 không tiếng, bắt đầu khi lời dẫn lần đầu nhắc đến phần demo.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": []
     },
     {
       "id": "creative/demo-scroll-sfx",
       "name": "Demo Scroll + Audio SFX",
       "category": "creative",
       "behavior": "creative",
-      "description": "Free-style creative direction with a muted 9:16 browser demo recording, background music, and a transition sound at every scene entry.",
-      "aspectRatio": "9:16"
+      "description": "Định hướng sáng tạo tự do với bản ghi demo trình duyệt dọc 9:16 không tiếng, nhạc nền và hiệu ứng chuyển cảnh ở mỗi điểm bắt đầu cảnh.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "AI tự sáng tạo",
+          "url": "https://drive.google.com/file/d/1lPtHyfHXXl_xjCXOXPwt8VxJOAp8Y5DI/view?usp=drivesdk",
+          "updatedAt": "2026-08-28"
+        },
+        {
+          "topic": "AI tự sáng tạo",
+          "url": "https://drive.google.com/file/d/1Ky-xIXUmcsdEpB2bE0kmnpmhqGMdC3vC/view?usp=drivesdk",
+          "updatedAt": "2026-08-28"
+        },
+        {
+          "topic": "AI tự sáng tạo",
+          "url": "https://drive.google.com/file/d/1jm18oqtVdANcr78r-58CaCLpS36Ao8oG/view?usp=drivesdk",
+          "updatedAt": "2026-08-28"
+        }
+      ]
     },
     {
       "id": "creative/article-video-demo",
       "name": "Article Video Demo",
       "category": "creative",
       "behavior": "creative",
-      "description": "Free-style introduction followed by the complete video embedded in a required article URL, preserving source audio when available. Stops when the article has no usable video.",
-      "aspectRatio": "9:16"
+      "description": "Mở đầu theo phong cách tự do, sau đó nhúng toàn bộ video từ URL bài viết và giữ âm thanh gốc nếu có; dừng khi bài viết không có video dùng được.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": []
     },
     {
       "id": "creative/source-led-light",
       "name": "Source Led Light",
       "category": "creative",
       "behavior": "creative",
-      "description": "Light creative storytelling driven by article context and relevant source images or muted video excerpts, with per-scene free-style fallback and visible attribution.",
-      "aspectRatio": "9:16"
+      "description": "Kể chuyện sáng theo nguồn, dựa trên ngữ cảnh bài viết và hình ảnh hoặc trích đoạn video liên quan có ghi nguồn; mỗi cảnh có thể chuyển sang xử lý tự do.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Tài chính",
+          "url": "https://drive.google.com/file/d/13MKGAthxe3-y1rPZPMOOBOu1xNOOrwgS/view?usp=drivesdk",
+          "updatedAt": "2026-08-27"
+        }
+      ]
     },
     {
       "id": "creative/source-led-dark",
       "name": "Source Led Dark",
       "category": "creative",
       "behavior": "creative",
-      "description": "Dark creative storytelling driven by article context and relevant source images or muted video excerpts, with per-scene free-style fallback and visible attribution.",
-      "aspectRatio": "9:16"
+      "description": "Kể chuyện tối theo nguồn, dựa trên ngữ cảnh bài viết và hình ảnh hoặc trích đoạn video liên quan có ghi nguồn; mỗi cảnh có thể chuyển sang xử lý tự do.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": []
     },
     {
       "id": "creative/source-led-light-sfx",
       "name": "Source Led Light + Audio SFX",
       "category": "creative",
       "behavior": "creative",
-      "description": "Light source-led creative storytelling with attributed article evidence, per-scene free-style fallback, background music, and transition SFX.",
-      "aspectRatio": "9:16"
+      "description": "Kể chuyện sáng theo nguồn với tư liệu bài viết có ghi nguồn, xử lý tự do theo từng cảnh, nhạc nền và hiệu ứng chuyển cảnh.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": []
     },
     {
       "id": "creative/source-led-dark-sfx",
       "name": "Source Led Dark + Audio SFX",
       "category": "creative",
       "behavior": "creative",
-      "description": "Dark source-led creative storytelling with attributed article evidence, per-scene free-style fallback, background music, and transition SFX.",
-      "aspectRatio": "9:16"
+      "description": "Kể chuyện tối theo nguồn với tư liệu bài viết có ghi nguồn, xử lý tự do theo từng cảnh, nhạc nền và hiệu ứng chuyển cảnh.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": []
+    },
+    {
+      "id": "creative/stock-story",
+      "name": "Stock Story",
+      "category": "creative",
+      "behavior": "creative",
+      "description": "Editorial tài chính nền navy với ticker vàng, headline kinetic, thẻ biểu đồ ivory và nhịp kể chuyện chứng khoán theo dữ liệu.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Tài chính",
+          "url": "https://drive.google.com/file/d/1UzukN3d8t4-wNKV8JZ3qKp3Sj5oM9f7N/view?usp=drivesdk",
+          "updatedAt": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "creative/crypto-signal-lab",
+      "name": "Crypto Signal Lab",
+      "category": "creative",
+      "behavior": "creative",
+      "description": "Bản tin crypto dark editorial với vòng tín hiệu, gauge kỳ vọng lãi suất, số liệu thanh lý và cảnh báo rủi ro.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Tài chính",
+          "url": "https://drive.google.com/file/d/1TF2MI2c-A-rR8mUQn8J4vN5hotXzRt9i/view?usp=drivesdk",
+          "updatedAt": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "id": "human-insight/cinematic-light",
+      "name": "Human Insight Cinematic Light",
+      "category": "human-insight",
+      "behavior": "hybrid",
+      "description": "Tranh minh họa line-art trên nền giấy sáng, tiêu đề cố định và subtitle karaoke tối giản cho video insight con người.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Nhân sinh - Cuộc đời",
+          "url": "https://drive.google.com/file/d/1V7GbxRR6fJ8L0Z1PoxMX11nY--8_H5AP/view?usp=drivesdk",
+          "updatedAt": "2026-08-25"
+        }
+      ]
+    },
+    {
+      "id": "human-insight/cinematic-dark",
+      "name": "Human Insight Cinematic Dark",
+      "category": "human-insight",
+      "behavior": "hybrid",
+      "description": "Tranh minh họa line-art trên nền tối, tiêu đề trắng cố định và subtitle karaoke vàng nhạt cho video insight con người.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Nhân sinh - Cuộc đời",
+          "url": "https://drive.google.com/file/d/1KVW3dqwaQm_2d8AUdBdd30CNqCVsqwLi/view?usp=drivesdk",
+          "updatedAt": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "human-insight/pexels-cinematic-dark",
+      "name": "Human Insight Pexels Cinematic Dark",
+      "category": "human-insight",
+      "behavior": "hybrid",
+      "description": "Ảnh cinematic toàn màn hình, vignette tối và caption hoa động góc trái cho video insight nhân sinh, công việc và đời sống.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Nhân sinh - Cuộc đời",
+          "url": "https://drive.google.com/file/d/1Tn9Zu7pU7EpIzx0SrfAzMdawmli9alDf/view?usp=drivesdk",
+          "updatedAt": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "human-insight/pexels-podcast-dark",
+      "name": "Human Insight Pexels Podcast Dark",
+      "category": "human-insight",
+      "behavior": "hybrid",
+      "description": "Audio-player podcast tối với ảnh nền mờ, waveform, microphone mark và caption kể chuyện nhân sinh theo nhịp thoại.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Nhân sinh - Cuộc đời",
+          "url": "https://drive.google.com/file/d/12eciQyVCKQaKmtkqaaQ0ai9HEAvI2kiJ/view?usp=drivesdk",
+          "updatedAt": "2026-08-29"
+        }
+      ]
     },
     {
       "id": "news/current-affairs-light",
@@ -97,7 +282,29 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Thời sự chính trị, kỷ nguyên mới, dân sinh, việc làm, giao thông. Nền giấy sáng, accent đỏ son và navy.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Thời sự",
+          "url": "https://drive.google.com/file/d/1DIg0ioRMKLgglno80TM2XRl2M7ksFteH/view?usp=drivesdk",
+          "updatedAt": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "id": "news/media-showcase",
+      "name": "Media Showcase",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Tin thời sự dạng tin ảnh: cửa sổ hình lớn, panel editorial sáng, headline đậm và credit rõ ràng.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Thời sự",
+          "url": "https://drive.google.com/file/d/1Re_fGbkvCDTtgFS1LdSoUi_JDDk79fNS/view?usp=drivesdk",
+          "updatedAt": "2026-08-29"
+        }
+      ]
     },
     {
       "id": "news/tech-dark",
@@ -105,7 +312,19 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Tin tức công nghệ. Nền tối sâu, tiêu đề gradient cyan-xanh, đốm sáng góc, particle network.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Tài chính",
+          "url": "https://drive.google.com/file/d/1dHPJFUZFkD8IMeah7nm-pAOR58LoRPw_/view?usp=drivesdk",
+          "updatedAt": "2026-08-26"
+        },
+        {
+          "topic": "Công nghệ",
+          "url": "https://drive.google.com/file/d/1hQQd0gvweDoxX9KPD7HqpNxFbI_xdm4X/view?usp=drivesdk",
+          "updatedAt": "2026-08-29"
+        }
+      ]
     },
     {
       "id": "news/tech-light",
@@ -113,7 +332,19 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Tin tức công nghệ. Nền trắng sạch, headline lớn đậm, accent đỏ, ảnh có ghi nguồn.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Công nghệ",
+          "url": "https://drive.google.com/file/d/1K7I4z-4biI66CiEwyIfcPmgkrSzpVZmA/view?usp=drivesdk",
+          "updatedAt": "2026-08-26"
+        },
+        {
+          "topic": "Công nghệ",
+          "url": "https://drive.google.com/file/d/1vUoE1UCpqevAMGkN7B3YxmM_heM-hsy7/view?usp=drivesdk",
+          "updatedAt": "2026-08-27"
+        }
+      ]
     },
     {
       "id": "news/current-affairs-dark",
@@ -121,7 +352,14 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Thời sự nghiêm túc với nền tối briefing room, phù hợp chính sách, giao thông, biến động xã hội.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Thời sự",
+          "url": "https://drive.google.com/file/d/140Gi6GVu4mdGu9eos3tOVoruVZqT1np1/view?usp=drivesdk",
+          "updatedAt": "2026-08-27"
+        }
+      ]
     },
     {
       "id": "news/real-estate-civic-light",
@@ -129,7 +367,14 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Bản tin bất động sản dân sinh/quy hoạch xã hội. Nền hồng phấn, headline nặng, timeline, quote và ảnh có nguồn.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Bất động sản",
+          "url": "https://drive.google.com/file/d/1jvrlO7T9TBgqDyBfY8BRaLrOr0Por_R4/view?usp=drivesdk",
+          "updatedAt": "2026-08-25"
+        }
+      ]
     },
     {
       "id": "news/real-estate-civic-dark",
@@ -137,7 +382,44 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Bản tin bất động sản dân sinh/quy hoạch xã hội. Nền đêm đô thị, accent vàng/cyan, ảnh mở dạng shutter và timeline sắc nét.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Bất động sản",
+          "url": "https://drive.google.com/file/d/1WI3N-QxzhyBnYc_Iif65jod73zsf89gg/view?usp=drivesdk",
+          "updatedAt": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "news/real-estate-plex-light",
+      "name": "Real Estate Plex Light",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Bản tin bất động sản dạng editorial slide-film: cover tối, trang giấy màu kem, headline serif italic vàng, ảnh công trình và nhịp chuyển trang mềm.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Bất động sản",
+          "url": "https://drive.google.com/file/d/11h5Oxm2myk2uNnoQ-BXs0NeJ-dBggs0t/view?usp=drivesdk",
+          "updatedAt": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "news/real-estate-luxury-editorial",
+      "name": "Real Estate Luxury Editorial",
+      "category": "news",
+      "behavior": "fixed",
+      "description": "Bản tin bất động sản/không gian sống dạng editorial slide-film: cover tối, trang giấy màu kem, headline serif italic vàng và nhịp chuyển trang mềm.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Bất động sản",
+          "url": "https://drive.google.com/file/d/1q05uAMPorA5_IdIFColpT7pTL7c-2OWZ/view?usp=drivesdk",
+          "updatedAt": "2026-08-28"
+        }
+      ]
     },
     {
       "id": "news/entertainment-magazine-light",
@@ -145,7 +427,14 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Tin giải trí tone sáng kiểu tạp chí: âm nhạc, phim, nhân vật, sách, thời trang với ảnh nguồn, quote, timeline và ranking.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Giải trí",
+          "url": "https://drive.google.com/file/d/1FxdjB0Qv0BK9At2lxsCUhJYhvRIJiZ54/view?usp=drivesdk",
+          "updatedAt": "2026-08-26"
+        }
+      ]
     },
     {
       "id": "news/entertainment-premiere-dark",
@@ -153,7 +442,14 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Tin giải trí tone tối kiểu premiere/sân khấu, không top bar: phim, nhạc, nhân vật, awards với poster, quote, timeline và ranking.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Giải trí",
+          "url": "https://drive.google.com/file/d/1d9Lt7Z358wPE2gNb_J75oZlQHync6pGd/view?usp=drivesdk",
+          "updatedAt": "2026-08-29"
+        }
+      ]
     },
     {
       "id": "news/sports-arena-dark",
@@ -161,7 +457,14 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Tin thể thao tone tối kiểu sân vận động: scoreboard, ảnh/video nguồn, tỉ số, timeline, stat board, quote và lịch đấu.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Thể thao",
+          "url": "https://drive.google.com/file/d/1EeYD7dN9jR1nHmRM6q8mDbnWm1H-QXH3/view?usp=drivesdk",
+          "updatedAt": "2026-08-26"
+        }
+      ]
     },
     {
       "id": "news/sports-briefing-light",
@@ -169,7 +472,8 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Tin thể thao tone sáng, ổn định: nền giấy editorial, scoreboard sạch, ảnh/video nguồn, stat board, timeline và quote.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": []
     },
     {
       "id": "news/health-briefing-light",
@@ -177,7 +481,14 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Tin tức sức khoẻ sáng, sạch, source-led: ảnh/video nguồn, số liệu, khuyến cáo, triệu chứng và timeline y tế.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Sức khỏe",
+          "url": "https://drive.google.com/file/d/1fX_698qAkt35yUc3JlgcJ8k3Hwmu6QDH/view?usp=drivesdk",
+          "updatedAt": "2026-08-26"
+        }
+      ]
     },
     {
       "id": "news/health-public-alert",
@@ -185,7 +496,8 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Cảnh báo sức khoẻ dạng bulletin: mức độ rủi ro, nhóm ảnh hưởng, checklist triệu chứng, hành động nên/không nên làm.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": []
     },
     {
       "id": "news/business-terminal-dark",
@@ -193,7 +505,8 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Bản tin kinh doanh/tài chính tone tối kiểu market terminal: ticker, số liệu lớn, biểu đồ, rủi ro và triển vọng.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": []
     },
     {
       "id": "news/business-ledger-light",
@@ -201,7 +514,14 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Bản tin kinh doanh/tài chính tone sáng kiểu financial newspaper: giấy ngà, ledger table, serif headline, chỉ số và memo kinh tế.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Tài chính",
+          "url": "https://drive.google.com/file/d/1HFnr9PoV1KsKk2WGGew_PRnRJlS7QL_J/view?usp=drivesdk",
+          "updatedAt": "2026-08-28"
+        }
+      ]
     },
     {
       "id": "news/travel-postcard-light",
@@ -209,7 +529,14 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Bản tin du lịch sáng kiểu tạp chí postcard: ảnh nguồn, tem địa điểm, route strip, boarding-pass fact và lưu ý địa phương.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Du lịch",
+          "url": "https://drive.google.com/file/d/1oFuex-29aEQBV4AcpGtzLyCR2wlRky3r/view?usp=drivesdk",
+          "updatedAt": "2026-08-26"
+        }
+      ]
     },
     {
       "id": "news/travel-guide-light",
@@ -217,7 +544,14 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Bản tin hướng dẫn du lịch sáng, thực dụng: chi phí, lịch trình, checklist, mùa đi và nên/không nên.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Du lịch",
+          "url": "https://drive.google.com/file/d/1U5Gw84f6-rCEYdNZL3yl9-q6oD9ySpVe/view?usp=drivesdk",
+          "updatedAt": "2026-08-29"
+        }
+      ]
     },
     {
       "id": "news/auto-showroom-dark",
@@ -225,7 +559,19 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Bản tin xe tone tối kiểu showroom/road test: ánh đèn, spec cards, gauge, compare board, recall và road-ahead checklist.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Xe cộ",
+          "url": "https://drive.google.com/file/d/1YL74hMh3bhakfPYeHvtOsa3MLh4LWXkn/view?usp=drivesdk",
+          "updatedAt": "2026-08-26"
+        },
+        {
+          "topic": "Du lịch",
+          "url": "https://drive.google.com/file/d/16yzDHRGl3zz7E_78OG6fwTYlDOBrTqFq/view?usp=drivesdk",
+          "updatedAt": "2026-08-27"
+        }
+      ]
     },
     {
       "id": "news/auto-market-light",
@@ -233,7 +579,14 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Bản tin thị trường xe tone sáng: ra mắt, khai tử, xu hướng xe điện, giá bán, chính sách, vòng đời mẫu xe và hành vi người mua.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Thời sự",
+          "url": "https://drive.google.com/file/d/1Wkw4AK370qS5fimuRCSu6gZgyqx6I4SQ/view?usp=drivesdk",
+          "updatedAt": "2026-08-27"
+        }
+      ]
     },
     {
       "id": "news/education-briefing-light",
@@ -241,7 +594,14 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Bản tin giáo dục sáng, không top bar: tuyển sinh, du học, đổi mới, chân dung, deadline, checklist và dữ liệu học thuật.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Giáo dục",
+          "url": "https://drive.google.com/file/d/1HirrLquqNACXcdN4alkwgfiMuxp2V1sA/view?usp=drivesdk",
+          "updatedAt": "2026-08-26"
+        }
+      ]
     },
     {
       "id": "news/education-campus-light",
@@ -249,7 +609,44 @@
       "category": "news",
       "behavior": "fixed",
       "description": "Bản tin giáo dục sáng kiểu campus bulletin: nền sky, vertical rail, notebook cards, coral deadline và mint insight.",
-      "aspectRatio": "9:16"
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Giáo dục",
+          "url": "https://drive.google.com/file/d/1EfNCR9pxk7vQGbc7b4reMZ2wxZAjM_Ba/view?usp=drivesdk",
+          "updatedAt": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "id": "geopolitics/strategic-map-dark",
+      "name": "Strategic Map Dark",
+      "category": "geopolitics",
+      "behavior": "hybrid",
+      "description": "Infographic địa chính trị nền navy: bản đồ vector, tuyến ảnh hưởng, số liệu lớn, so sánh năng lực và chuỗi tác động domino.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Địa lý - Chính trị",
+          "url": "https://drive.google.com/file/d/13aKI9Ab-YvMEhBYunh0Kl9lrss2FqlEQ/view?usp=drivesdk",
+          "updatedAt": "2026-08-25"
+        }
+      ]
+    },
+    {
+      "id": "creative/fullscreen-geopolitical-map",
+      "name": "Fullscreen Geopolitical Map",
+      "category": "geopolitics",
+      "behavior": "creative",
+      "description": "Bản đồ địa chính trị toàn màn hình với headline editorial, tuyến ảnh hưởng, điểm nóng và kết luận có điều kiện.",
+      "aspectRatio": "9:16",
+      "videoDriveLinks": [
+        {
+          "topic": "Địa Lý - Chính Trị",
+          "url": "https://drive.google.com/file/d/1dVRmFz2gg0OcVe8G03efxOJSHhwVHaU0/view?usp=drivesdk",
+          "updatedAt": "2026-08-28"
+        }
+      ]
     }
   ]
 }
